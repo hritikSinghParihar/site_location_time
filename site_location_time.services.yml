@@ -1,0 +1,4 @@
+services:
+  site_location_time.timezone:
+    class: Drupal\site_location_time\Services\SiteLocationTimeService
+    arguments: ['@config.factory']

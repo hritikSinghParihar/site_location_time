@@ -1,0 +1,9 @@
+site_location_time.admin_settings:
+  path: '/admin/config/site_location_time/settings'
+  defaults:
+    _form: '\Drupal\site_location_time\Form\SiteLocationTimeConfigForm'
+    _title: 'This Website Block in Countries'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
