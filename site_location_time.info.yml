@@ -1,0 +1,7 @@
+name: Site Location Time
+type: module
+description: Module for displaying Location and time according to location and timezone selected.
+core_version_requirement: ^8.8 || ^9
+package: custom
+
+
